@@ -126,7 +126,11 @@
     border-color: #4CAF50 !important;
 }
 
-
+/* === BLUE: General / All Audiences === */
+.mediaInfoOfficialRating[rating='ES-7'] {               	/* Spain */
+    background-color: #0A8EC4 !important; /* Dark Green */
+    border-color: #32B9ED !important;
+}
 
 /* === YELLOW: Parental Guidance Suggested === */
 .mediaInfoOfficialRating[rating='PG'],                     /* US / UK / Canada / Australia / Ireland etc. */
@@ -162,7 +166,8 @@
 .mediaInfoOfficialRating[rating='NL-6'],                   /* Netherlands */
 .mediaInfoOfficialRating[rating='SE-7'],                   /* Sweden */
 .mediaInfoOfficialRating[rating='IT-VM6'],                 /* Italy */
-.mediaInfoOfficialRating[rating='ES-7'],                   /* Spain */
+.mediaInfoOfficialRating[rating='ES-12'],                   /* Spain */
+.mediaInfoOfficialRating[rating='ES-14'],                   /* Spain */
 .mediaInfoOfficialRating[rating='RU-6+'],                  /* Russia */
 .mediaInfoOfficialRating[rating='MX-A'],                   /* Mexico */
 .mediaInfoOfficialRating[rating='AR-13'],                  /* Argentina */
@@ -216,7 +221,7 @@
 .mediaInfoOfficialRating[rating='NL-9'],                   /* Netherlands */
 .mediaInfoOfficialRating[rating='SE-11'],                  /* Sweden */
 .mediaInfoOfficialRating[rating='IT-VM14'],                /* Italy */
-.mediaInfoOfficialRating[rating='ES-12'],                  /* Spain */
+.mediaInfoOfficialRating[rating='ES-16'],                  /* Spain */
 .mediaInfoOfficialRating[rating='RU-12+'],                 /* Russia */
 .mediaInfoOfficialRating[rating='CN-PG-13'],               /* China */
 .mediaInfoOfficialRating[rating='MX-B'],                   /* Mexico */
@@ -258,7 +263,6 @@
 .mediaInfoOfficialRating[rating='BR-16'],                  /* Brazil */
 .mediaInfoOfficialRating[rating='NL-12'],                  /* Netherlands */
 .mediaInfoOfficialRating[rating='SE-15'],                  /* Sweden */
-.mediaInfoOfficialRating[rating='ES-16'],                  /* Spain */
 .mediaInfoOfficialRating[rating='RU-16+'],                 /* Russia */
 .mediaInfoOfficialRating[rating='MX-B15'],                 /* Mexico */
 .mediaInfoOfficialRating[rating='NO-12'],                  /* Norway */
